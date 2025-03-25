@@ -1,0 +1,21 @@
+Bước 1: tạo repository trên github.
+ - đặt tên.
+ - chọn công khai (Public), riêng tư(private)
+Bước 2 tạo thư mục dự án trên máy tính 
+ - tạo thư mục dự án -> nội dung dự án ( các file chạy code html.....)
+
+lần đầu đưa dự án lên repository
+
+- git init 
+- git remote add origin https: ///.....( coppy đúng đường link của repository lưu trữ code)
+- git add .
+- git commit -m "ghi chú"
+- git branch -M main
+- git push -m origin main
+
+lần sau khi dự án đã có trên github thay đổi code 
+
+- git init 
+- git add .
+- git commit -m "ghi chú"
+- git push -m origin main
